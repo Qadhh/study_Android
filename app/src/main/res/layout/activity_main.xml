@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vp"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="首页"
+            android:text="微信"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="应用"
+            android:text="通讯录"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="分类"
+            android:text="发现"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="我的"
+            android:text="我"
             android:textColor="#000000"
             android:textSize="18sp" />
     </RadioGroup>

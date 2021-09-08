@@ -16,7 +16,7 @@ import androidx.fragment.app.Fragment;
  * @创建时间： 下午8:48
  * 描述：
  */
-public class HomeFragment extends Fragment {
+public class WeiXInFragment extends Fragment {
 
     private TextView mTextView;
 

@@ -16,7 +16,7 @@ import androidx.fragment.app.Fragment;
  * @创建时间： 下午8:50
  * 描述：
  */
-public class CategoryFragment extends Fragment {
+public class AddressBookFragment extends Fragment {
 
     private TextView mTextView;
 
@@ -25,7 +25,7 @@ public class CategoryFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         mTextView = new TextView(getActivity());
-        mTextView.setText("分类");
+        mTextView.setText("通讯录");
         mTextView.setGravity(Gravity.CENTER);
         mTextView.setTextSize(22);
 

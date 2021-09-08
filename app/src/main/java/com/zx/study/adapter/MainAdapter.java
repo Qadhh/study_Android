@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.study.bean.FragmentBean;
+import com.example.study.util.bean.FragmentBean;
 
 import java.util.ArrayList;
 

@@ -1,21 +1,22 @@
-package com.zx.study;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.study.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+
 import com.example.study.adapter.MainVp2Adapter;
-import com.example.study.bean.FragmentBean;
-import com.example.study.fragment.ApplicationFragment;
-import com.example.study.fragment.CategoryFragment;
-import com.example.study.fragment.HomeFragment;
+import com.example.study.util.bean.FragmentBean;
+import com.example.study.fragment.AddressBookFragment;
+import com.example.study.fragment.FindFragment;
 import com.example.study.fragment.MyFragment;
+import com.example.study.fragment.WeiXInFragment;
+import com.zx.study.R;
 
 import java.util.ArrayList;
 
@@ -137,11 +138,11 @@ public class MainActivity extends FragmentActivity {
     }
 
     private void initData() {
-        String[] stringArray = {"首页", "应用", "分类", "我的"};
+        String[] stringArray = {"微信", "通讯录", "发现", "我"};
         fragmentList = new ArrayList<FragmentBean>();
-        fragmentList.add(new FragmentBean(new HomeFragment(), stringArray[0]));
-        fragmentList.add(new FragmentBean(new ApplicationFragment(), stringArray[1]));
-        fragmentList.add(new FragmentBean(new CategoryFragment(), stringArray[2]));
+        fragmentList.add(new FragmentBean(new WeiXInFragment(), stringArray[0]));
+        fragmentList.add(new FragmentBean(new AddressBookFragment(), stringArray[1]));
+        fragmentList.add(new FragmentBean(new FindFragment(), stringArray[2]));
         fragmentList.add(new FragmentBean(new MyFragment(), stringArray[3]));
 
     }

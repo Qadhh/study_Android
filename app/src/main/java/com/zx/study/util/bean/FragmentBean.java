@@ -1,4 +1,4 @@
-package com.example.study.bean;
+package com.example.study.util.bean;
 
 import androidx.fragment.app.Fragment;
 

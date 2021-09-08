@@ -25,7 +25,7 @@ public class MyFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         mTextView = new TextView(getActivity());
-        mTextView.setText("我的");
+        mTextView.setText("我");
         mTextView.setGravity(Gravity.CENTER);
         mTextView.setTextSize(22);
 

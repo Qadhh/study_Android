@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.study.bean.FragmentBean;
+import com.example.study.util.bean.FragmentBean;
 
 import java.util.ArrayList;
 
